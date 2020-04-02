@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config version="1.0">
+
+    <!-- Face Config -->
+    <face-config
+        support-3d="False"
+        support-pay="False"
+        support-assistant="False"
+        support-mtk-new-boost="False"/>
+
+    <!-- Boost Parameter -->
+    <boost-param param-list="0x40C00000,0x1,0x40802000,0x3,0x40802100,0x2"/>
+
+    <!-- Camera Skip Frame -->
+    <skip-frame value="3"/>
+
+    <!-- Camera Fps -->
+    <camera-fps value="30"/>
+
+    <!-- Adjust Brightness -->
+    <adjust-brightness color="0xFFFDFA" start-brightness="10" brightness="10" duration="0"/>
+
+</config>
